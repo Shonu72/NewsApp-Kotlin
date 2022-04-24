@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash"
+    android:background="@color/background">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/newsAnime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/newsanime" />
+
+    <TextView
+        android:id="@+id/samachar"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/drnews"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"
+        android:textColor="#EADEA8"
+        android:text="SamaChar App"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/newsAnime" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#F4511E"
+        android:text="By Upcoming Engineer"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/samachar"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
