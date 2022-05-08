@@ -13,7 +13,7 @@ This app is developed by using newsapi in kotlin language.
   <img src="https://user-images.githubusercontent.com/67668844/166631069-31e2f9ad-0791-4ee3-bd81-4a81f9765271.jpg"   width="200" height="400" />
   &nbsp
   </p>
-<p> 
+<p align="left"> 
   <img src="https://user-images.githubusercontent.com/67668844/166631073-d3277628-9f7f-4afc-9f1c-488c60d36393.jpg"   width="200" height="400" />
   &nbsp
   
